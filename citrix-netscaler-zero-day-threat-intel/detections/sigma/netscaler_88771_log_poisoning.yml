@@ -1,0 +1,21 @@
+title: Citrix NetScaler CVE-2026-88771 Authentication Log Poisoning
+id: 20261002-88771-0001
+status: experimental
+description: Detect the source-specific authentication/log poisoning pattern associated with CVE-2026-88771. This is an exploitation-attempt detector, not proof of successful command execution.
+author: CTI Hunting
+references:
+  - https://tenex.ai/blog/what-tenex-observed-inside-active-exploitation-of-netscaler-zero-day/
+  - https://unit42.paloaltonetworks.com/netscaler-zero-days-exploited/
+  - https://www.levelblue.com/blogs/spiderlabs-blog/citrix-netscaler-cve-2026-88771-observed-exploitation-artifacts-and-hunt-indicators
+logsource:
+  product: citrix_netscaler
+  category: authentication
+selection:
+  message|re: '(?i)pitboss.{0,120}PPE.{0,120}(?:unexpectedly died|missed too many heartbeats).{0,80}NSPPE\s*;'
+condition: selection
+level: high
+tags:
+  - attack.initial-access
+  - attack.t1190
+  - attack.execution
+  - attack.t1059.004

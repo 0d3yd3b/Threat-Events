@@ -1,0 +1,24 @@
+title: Citrix NetScaler Webshell HTTPD Persistence Artifacts
+id: 20261002-88771-0004
+status: experimental
+description: Detects combinations of observed hidden PHP webshell files and HTTPD configuration changes used to expose them through legitimate-looking static paths.
+author: CTI Hunting
+references:
+  - https://unit42.paloaltonetworks.com/netscaler-zero-days-exploited/
+  - https://www.levelblue.com/blogs/spiderlabs-blog/citrix-netscaler-cve-2026-88771-observed-exploitation-artifacts-and-hunt-indicators
+logsource:
+  product: citrix_netscaler
+  category: file_event
+selection_file:
+  target_path|contains:
+    - '.local_journal'
+    - '.ctxs.receiver'
+selection_httpd:
+  file_name: 'httpd.conf'
+condition: selection_file or selection_httpd
+level: high
+tags:
+  - attack.persistence
+  - attack.t1505.003
+  - attack.defense-evasion
+  - attack.t1036

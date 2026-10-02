@@ -1,0 +1,19 @@
+title: Citrix NetScaler CVE-2026-88771 Staged Base64 Command Extraction
+id: 20261002-88771-0002
+status: experimental
+description: Detect the exploit-specific staged payload pattern where INDEX data is recovered from the HTTP log, decoded and passed to a shell/interpreter. This is not intended to detect ordinary Base64 usage.
+author: CTI Hunting
+references:
+  - https://unit42.paloaltonetworks.com/netscaler-zero-days-exploited/
+  - https://tenex.ai/blog/what-tenex-observed-inside-active-exploitation-of-netscaler-zero-day/
+logsource:
+  product: citrix_netscaler
+  category: application
+selection:
+  message|re: '(?i)(INDEX:).*(b64decode).*(?:sh|php)'
+condition: selection
+level: high
+tags:
+  - attack.execution
+  - attack.t1059.004
+  - attack.t1105

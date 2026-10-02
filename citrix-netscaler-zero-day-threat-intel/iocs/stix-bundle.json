@@ -1,0 +1,1502 @@
+{
+  "type": "bundle",
+  "id": "bundle--a0b4c035-f419-4b1a-962a-512b7e609ea0",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--5055b494-47b0-4260-be4b-12f8d41ef076",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 ipv4 IOC",
+      "description": "Source-derived indicator. Role: payload-delivery. Source: LevelBlue/Arctic Wolf.",
+      "pattern": "[ipv4-addr:value = '23.27.143.20']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "payload-delivery",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--23d58b66-916c-43e9-8b25-8ed9aa71d5b7",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 ipv4 IOC",
+      "description": "Source-derived indicator. Role: payload-delivery. Source: LevelBlue/Arctic Wolf.",
+      "pattern": "[ipv4-addr:value = '31.56.197.72']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "payload-delivery",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--2bd53ade-ad9c-4eb9-85fd-df63cac60e2e",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 ipv4 IOC",
+      "description": "Source-derived indicator. Role: reverse-shell-c2. Source: LevelBlue/user-supplied Python sample.",
+      "pattern": "[ipv4-addr:value = '45.141.21.130']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "reverse-shell-c2",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--f9219a66-680b-4926-bfac-0e4ba91d19d9",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 ipv4 IOC",
+      "description": "Source-derived indicator. Role: exploitation-source. Source: LevelBlue.",
+      "pattern": "[ipv4-addr:value = '47.230.224.154']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "exploitation-source",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--6454d30e-5161-48e4-8a21-44093253c1c7",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 ipv4 IOC",
+      "description": "Source-derived indicator. Role: payload-delivery. Source: LevelBlue/Arctic Wolf.",
+      "pattern": "[ipv4-addr:value = '62.133.62.80']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "payload-delivery",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--a40713b0-dc46-4ca1-bb77-f71eb1bc0e74",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 ipv4 IOC",
+      "description": "Source-derived indicator. Role: payload-delivery-and-exfiltration. Source: LevelBlue/user-supplied Perl sample.",
+      "pattern": "[ipv4-addr:value = '64.94.85.67']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "payload-delivery-and-exfiltration",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--9e57e36b-0ea5-4033-aa1d-f3c5347a108f",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 ipv4 IOC",
+      "description": "Source-derived indicator. Role: command-testing. Source: Arctic Wolf.",
+      "pattern": "[ipv4-addr:value = '68.178.160.183']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "command-testing",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ea8911b8-afc4-49d9-b22d-c0b380228ac5",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 ipv4 IOC",
+      "description": "Source-derived indicator. Role: exploitation-source. Source: LevelBlue.",
+      "pattern": "[ipv4-addr:value = '70.172.58.168']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "exploitation-source",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--a7caa495-ba84-4969-8e0d-7a0812f216f2",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 ipv4 IOC",
+      "description": "Source-derived indicator. Role: recon-and-exploitation-source. Source: Unit42/Tenex.",
+      "pattern": "[ipv4-addr:value = '77.83.199.39']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "recon-and-exploitation-source",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--a14cce68-b64c-41f6-8c20-db74d6bd2f29",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 ipv4 IOC",
+      "description": "Source-derived indicator. Role: recon-and-exploitation-source. Source: Unit42.",
+      "pattern": "[ipv4-addr:value = '78.47.24.217']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "recon-and-exploitation-source",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--f52c2ae3-5421-42a4-ab36-e30cdc159ea8",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 ipv4 IOC",
+      "description": "Source-derived indicator. Role: configuration-staging-source. Source: LevelBlue.",
+      "pattern": "[ipv4-addr:value = '87.224.84.82']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "configuration-staging-source",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--5bd41f1e-06dd-4614-a9a7-579c14958394",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 ipv4 IOC",
+      "description": "Source-derived indicator. Role: reverse-shell-testing. Source: Arctic Wolf.",
+      "pattern": "[ipv4-addr:value = '89.44.80.7']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "reverse-shell-testing",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--d353fa71-a39e-4e0e-8c97-e03458f840c1",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 ipv4 IOC",
+      "description": "Source-derived indicator. Role: command-execution-testing. Source: LevelBlue.",
+      "pattern": "[ipv4-addr:value = '92.118.204.229']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "command-execution-testing",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--c1e1a9e8-073d-496c-97e6-5e983156e510",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 ipv4 IOC",
+      "description": "Source-derived indicator. Role: opportunistic-post-poc-delivery. Source: Tenex.",
+      "pattern": "[ipv4-addr:value = '130.94.20.222']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "opportunistic-post-poc-delivery",
+        "unattributed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--e58e4983-bd56-4136-a92f-c89cf2f6a240",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 ipv4 IOC",
+      "description": "Source-derived indicator. Role: payload-testing. Source: Arctic Wolf.",
+      "pattern": "[ipv4-addr:value = '130.94.42.226']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "payload-testing",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--4fd83a85-ed6c-40c4-869b-326fc5896098",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 ipv4 IOC",
+      "description": "Source-derived indicator. Role: payload-testing. Source: Arctic Wolf.",
+      "pattern": "[ipv4-addr:value = '134.175.71.50']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "payload-testing",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--92ab4ec9-8e8d-4911-b981-9570eaaed10f",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 ipv4 IOC",
+      "description": "Source-derived indicator. Role: webshell-delivery-source. Source: Unit42.",
+      "pattern": "[ipv4-addr:value = '139.180.152.138']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "webshell-delivery-source",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--1b60cc64-3b80-4190-b9b1-5a44837b1578",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 ipv4 IOC",
+      "description": "Source-derived indicator. Role: exploitation-source. Source: GreyNoise.",
+      "pattern": "[ipv4-addr:value = '149.104.78.141']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "exploitation-source",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--9fe4e245-868a-4ffb-9d79-33d175e783fa",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 ipv4 IOC",
+      "description": "Source-derived indicator. Role: payload-delivery. Source: Arctic Wolf.",
+      "pattern": "[ipv4-addr:value = '153.75.82.220']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "payload-delivery",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--98307f97-40a6-455a-aeca-9a197325863a",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 ipv4 IOC",
+      "description": "Source-derived indicator. Role: exploitation-source. Source: LevelBlue.",
+      "pattern": "[ipv4-addr:value = '162.243.36.88']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "exploitation-source",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--be9cac4c-8107-465c-b434-1de3bf7294b8",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 ipv4 IOC",
+      "description": "Source-derived indicator. Role: exploitation-source. Source: LevelBlue.",
+      "pattern": "[ipv4-addr:value = '173.40.135.209']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "exploitation-source",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--5a14eef0-bec4-43ec-85de-4e122b46c965",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 ipv4 IOC",
+      "description": "Source-derived indicator. Role: shell-payload-delivery. Source: Arctic Wolf.",
+      "pattern": "[ipv4-addr:value = '177.4.12.11']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "shell-payload-delivery",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--0cc3b0e8-cf42-4016-9e5b-e84afaa75455",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 ipv4 IOC",
+      "description": "Source-derived indicator. Role: opportunistic-post-poc-delivery. Source: Tenex.",
+      "pattern": "[ipv4-addr:value = '199.233.217.13']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "opportunistic-post-poc-delivery",
+        "unattributed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--31a65dfb-f2f0-43ad-8ea3-18720a73de12",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 ipv4 IOC",
+      "description": "Source-derived indicator. Role: Platypus-C2. Source: Tenex.",
+      "pattern": "[ipv4-addr:value = '195.123.233.245']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "Platypus-C2",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--b4248e89-2575-4f22-8bfd-2306e63f4b83",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 ipv4 IOC",
+      "description": "Source-derived indicator. Role: Platypus-C2. Source: Tenex.",
+      "pattern": "[ipv4-addr:value = '38.180.81.157']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "Platypus-C2",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--2fb9d4b0-5a91-4dc7-8021-c89ca060402a",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 ipv4 IOC",
+      "description": "Source-derived indicator. Role: Platypus-C2. Source: Tenex.",
+      "pattern": "[ipv4-addr:value = '95.133.231.109']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "Platypus-C2",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--17449eaf-e092-4e97-b4f6-b12deff882b1",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 ipv4 IOC",
+      "description": "Source-derived indicator. Role: Platypus-C2. Source: Tenex.",
+      "pattern": "[ipv4-addr:value = '104.200.67.56']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "Platypus-C2",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ab33bb50-0bf9-4047-a6f4-67f77b7c4407",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88772 ipv4 IOC",
+      "description": "Source-derived indicator. Role: recon/fingerprinting-source. Source: Unit42.",
+      "pattern": "[ipv4-addr:value = '104.248.244.66']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88772",
+        "recon/fingerprinting-source",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--b26bd750-ad7b-4320-b11a-b91ef16561d6",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88772 ipv4 IOC",
+      "description": "Source-derived indicator. Role: webshell-campaign-network. Source: Unit42.",
+      "pattern": "[ipv4-addr:value = '45.61.136.143']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88772",
+        "webshell-campaign-network",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--5b71aa29-5968-41f8-8748-00f8fc13b11a",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88772 ipv4 IOC",
+      "description": "Source-derived indicator. Role: webshell-campaign-network. Source: Unit42.",
+      "pattern": "[ipv4-addr:value = '66.227.183.84']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88772",
+        "webshell-campaign-network",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--0898d8cc-9618-4c50-a43b-4dc497c8e2fe",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88772 ipv4 IOC",
+      "description": "Source-derived indicator. Role: VPS-delivery-source. Source: Unit42.",
+      "pattern": "[ipv4-addr:value = '66.135.19.18']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88772",
+        "VPS-delivery-source",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ce3da381-8366-400e-9b36-66a73146f06a",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88772 ipv4 IOC",
+      "description": "Source-derived indicator. Role: VPS-delivery-source. Source: Unit42.",
+      "pattern": "[ipv4-addr:value = '167.99.111.203']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88772",
+        "VPS-delivery-source",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--a33a6dde-e337-4bdc-876c-fd77f568c863",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88772 ipv4 IOC",
+      "description": "Source-derived indicator. Role: VPS-delivery-source. Source: Unit42.",
+      "pattern": "[ipv4-addr:value = '142.93.85.227']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88772",
+        "VPS-delivery-source",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--abee554e-d1e7-40aa-baad-2417cb43b524",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88772 ipv4 IOC",
+      "description": "Source-derived indicator. Role: VPS-delivery-source. Source: Unit42.",
+      "pattern": "[ipv4-addr:value = '104.248.74.206']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88772",
+        "VPS-delivery-source",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--e8c3c557-a491-4fea-b404-ea3134bcc6a2",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88772 ipv4 IOC",
+      "description": "Source-derived indicator. Role: VPS-delivery-source. Source: Unit42.",
+      "pattern": "[ipv4-addr:value = '137.184.91.207']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88772",
+        "VPS-delivery-source",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--5a58c798-efb0-4c39-a920-ede36d7ab4bd",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88772 ipv4 IOC",
+      "description": "Source-derived indicator. Role: WARP-source. Source: Unit42.",
+      "pattern": "[ipv4-addr:value = '104.28.247.136']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88772",
+        "WARP-source",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--b35dcc31-2076-410e-9cc3-18379b9f3f3f",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88772 ipv4 IOC",
+      "description": "Source-derived indicator. Role: WARP-source. Source: Unit42.",
+      "pattern": "[ipv4-addr:value = '104.28.215.136']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88772",
+        "WARP-source",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--9467d5fe-bc18-4126-9c6b-fa0d9ca83f24",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88772 ipv4 IOC",
+      "description": "Source-derived indicator. Role: WARP-source. Source: Unit42.",
+      "pattern": "[ipv4-addr:value = '104.28.215.137']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88772",
+        "WARP-source",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--1c327225-bcad-4465-80ec-50bbb8512d99",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88772 ipv4 IOC",
+      "description": "Source-derived indicator. Role: WARP-associated-source. Source: Unit42.",
+      "pattern": "[ipv4-addr:value = '104.28.247.137']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88772",
+        "WARP-associated-source",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ae7e61f5-5331-46b0-a360-aa6f53be3c1c",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88772 ipv4 IOC",
+      "description": "Source-derived indicator. Role: delivery-source. Source: Unit42.",
+      "pattern": "[ipv4-addr:value = '162.33.178.9']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88772",
+        "delivery-source",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--f7a9ff77-32c6-45f7-93d2-f2330987d565",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88772 ipv4 IOC",
+      "description": "Source-derived indicator. Role: delivery-and-request-source. Source: Unit42.",
+      "pattern": "[ipv4-addr:value = '193.149.176.207']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88772",
+        "delivery-and-request-source",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--6f027e12-1d32-4aea-89d6-a2bb2e25897e",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88772 ipv4 IOC",
+      "description": "Source-derived indicator. Role: webshell-campaign-network. Source: Unit42.",
+      "pattern": "[ipv4-addr:value = '216.245.184.164']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88772",
+        "webshell-campaign-network",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--caf1af98-ecf3-4adc-b8a7-2008a09b7aed",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88772 ipv4 IOC",
+      "description": "Source-derived indicator. Role: exploit-source. Source: Mandiant.",
+      "pattern": "[ipv4-addr:value = '143.198.7.94']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88772",
+        "exploit-source",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--991f4af8-8449-4c49-a1ac-49fa4244f122",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88772 ipv4 IOC",
+      "description": "Source-derived indicator. Role: exploit-source. Source: Mandiant.",
+      "pattern": "[ipv4-addr:value = '157.254.167.12']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88772",
+        "exploit-source",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ebe244f0-5438-4583-800a-4860bb4f2cf0",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 domain IOC",
+      "description": "Source-derived indicator. Role: Platypus-bootstrap-and-C2. Source: Tenex/Arctic Wolf.",
+      "pattern": "[domain-name:value = 'entretiensol.com']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "Platypus-bootstrap-and-C2",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--1683d52a-3116-44d6-9069-e54d0efc6b04",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 domain IOC",
+      "description": "Source-derived indicator. Role: associated-infrastructure. Source: Tenex.",
+      "pattern": "[domain-name:value = 'white-guard.pro']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "associated-infrastructure",
+        "contextual"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--73f7a347-b21b-44d1-8541-ea6e0be1408f",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 domain IOC",
+      "description": "Source-derived indicator. Role: certificate-SAN. Source: Tenex.",
+      "pattern": "[domain-name:value = 'garyvard.com']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "certificate-SAN",
+        "contextual"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--c59e237b-1d5d-413e-8677-b8803aa9cff5",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 domain IOC",
+      "description": "Source-derived indicator. Role: certificate-SAN. Source: Tenex.",
+      "pattern": "[domain-name:value = 'hickoryusedauto.com']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "certificate-SAN",
+        "contextual"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--a4496163-ebcb-4300-9e80-756a00e0d6cd",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 domain IOC",
+      "description": "Source-derived indicator. Role: certificate-SAN. Source: Tenex.",
+      "pattern": "[domain-name:value = 'gurerasfalt.com']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "certificate-SAN",
+        "contextual"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--0ab1b55d-b49a-437b-9f70-161641e60dba",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 domain IOC",
+      "description": "Source-derived indicator. Role: certificate-SAN. Source: Tenex.",
+      "pattern": "[domain-name:value = 'rockinroyaltykids.com']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "certificate-SAN",
+        "contextual"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--f04c848c-01a8-4b12-acb6-1e5ba573e7a4",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 domain IOC",
+      "description": "Source-derived indicator. Role: certificate-SAN-no-active-resolution. Source: Tenex.",
+      "pattern": "[domain-name:value = 'currydownsrvpark.com']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "certificate-SAN-no-active-resolution",
+        "contextual"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--f263c50a-4761-4440-8925-0eb85db9223d",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 domain IOC",
+      "description": "Source-derived indicator. Role: abused-legitimate-service. Source: Tenex.",
+      "pattern": "[domain-name:value = 'gsocket.io']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "abused-legitimate-service",
+        "unattributed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--3eda0fd5-561b-4cbd-a307-383ea12a6586",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 url IOC",
+      "description": "Source-derived indicator. Role: payload-delivery. Source: LevelBlue/Arctic Wolf.",
+      "pattern": "[url:value = 'http://62.133.62.80:80/xd7h/x']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "payload-delivery",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--eea2e771-9790-4a0f-856a-a0fa5e417230",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 url IOC",
+      "description": "Source-derived indicator. Role: persistence-payload. Source: Arctic Wolf.",
+      "pattern": "[url:value = 'http://62.133.62.80:80/xd7h/nsmon.pl']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "persistence-payload",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--285a416b-9f59-4a26-993f-44ac2b59145f",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 url IOC",
+      "description": "Source-derived indicator. Role: payload-delivery. Source: LevelBlue/Arctic Wolf.",
+      "pattern": "[url:value = 'http://23.27.143.20:9000/main.py']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "payload-delivery",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--d119785c-8de3-4d0e-af0c-609c3b1cae64",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 url IOC",
+      "description": "Source-derived indicator. Role: post-exploitation-script. Source: LevelBlue/Arctic Wolf.",
+      "pattern": "[url:value = 'http://64.94.85.67:443/update_c08937.pl']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "post-exploitation-script",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--edaec36e-5ee4-4cfe-be3e-8bb90e30546b",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 url IOC",
+      "description": "Source-derived indicator. Role: config-exfiltration. Source: LevelBlue/user-supplied Perl sample.",
+      "pattern": "[url:value = 'http://64.94.85.67:443/update_result_3567cs.tgz']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "config-exfiltration",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--9c980dad-e8de-470f-891b-1dcc37c0e632",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 url IOC",
+      "description": "Source-derived indicator. Role: payload-delivery. Source: LevelBlue/Arctic Wolf.",
+      "pattern": "[url:value = 'http://31.56.197.72:9090/lula']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "payload-delivery",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--3e21c17d-fa89-497a-a7c2-d2568e2b37cb",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 url IOC",
+      "description": "Source-derived indicator. Role: execution-test. Source: Arctic Wolf.",
+      "pattern": "[url:value = 'http://68.178.160.183:8899/test111']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "execution-test",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--7a3f3a66-8ef6-41c6-8369-589db9eec03b",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 url IOC",
+      "description": "Source-derived indicator. Role: execution-test. Source: Arctic Wolf.",
+      "pattern": "[url:value = 'http://68.178.160.183:8888/test']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "execution-test",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--c33d3f77-87d0-45f4-b6af-ade0c3d3d117",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 url IOC",
+      "description": "Source-derived indicator. Role: execution-validation. Source: Arctic Wolf.",
+      "pattern": "[url:value = 'http://89.44.80.7:65456/exec-ok']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "execution-validation",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--a96b53c6-0426-433d-a691-5c0c04f1e865",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 url IOC",
+      "description": "Source-derived indicator. Role: payload-testing. Source: Arctic Wolf.",
+      "pattern": "[url:value = 'http://130.94.42.226:18805/?t=<REDACTED>']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "payload-testing",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--296ff068-7284-40dc-95c0-9e7d6266606c",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 url IOC",
+      "description": "Source-derived indicator. Role: payload-testing. Source: Arctic Wolf.",
+      "pattern": "[url:value = 'http://134.175.71.50:4123/1']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "payload-testing",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ef1e89fb-ead5-41d8-93dc-dd5bddd17946",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 url IOC",
+      "description": "Source-derived indicator. Role: shell-payload-delivery. Source: Arctic Wolf.",
+      "pattern": "[url:value = 'http://153.75.82.220/download/x.sh']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "shell-payload-delivery",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--27383cd4-b9a3-488a-b042-45f280271b6e",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 url IOC",
+      "description": "Source-derived indicator. Role: shell-payload-delivery. Source: Arctic Wolf.",
+      "pattern": "[url:value = 'http://177.4.12.11:8080/s?t=a']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "shell-payload-delivery",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--87055591-0fed-4fea-9d54-bd1b08482bdc",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 url IOC",
+      "description": "Source-derived indicator. Role: shell-payload-delivery. Source: Arctic Wolf.",
+      "pattern": "[url:value = 'http://177.4.12.11:8080/s?t=b']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "shell-payload-delivery",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--13a79cd3-69b7-4b33-b374-c2871a4c2e37",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 url IOC",
+      "description": "Source-derived indicator. Role: shell-payload-delivery. Source: Arctic Wolf.",
+      "pattern": "[url:value = 'http://177.4.12.11:8080/s?t=c']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "shell-payload-delivery",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--b871d7e7-7686-487c-aadb-a13165d74a39",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 url IOC",
+      "description": "Source-derived indicator. Role: Platypus-bootstrap. Source: Tenex/Arctic Wolf.",
+      "pattern": "[url:value = 'https://entretiensol.com:443/api/v1/install/<REDACTED>']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "Platypus-bootstrap",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ba538af7-f46d-442d-9543-87e353a6ae72",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 url IOC",
+      "description": "Source-derived indicator. Role: opportunistic-post-poc-delivery. Source: Tenex.",
+      "pattern": "[url:value = 'http://199.233.217.13:8080/hi/']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "opportunistic-post-poc-delivery",
+        "unattributed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--55d042e2-f86a-4094-8f11-9ef35eaf0cee",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 url IOC",
+      "description": "Source-derived indicator. Role: opportunistic-post-poc-delivery. Source: Tenex.",
+      "pattern": "[url:value = 'http://130.94.20.222:8888/c/<hex>']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "opportunistic-post-poc-delivery",
+        "unattributed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--0c33636c-5c47-4ae3-965d-71cc4d909f63",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 url IOC",
+      "description": "Source-derived indicator. Role: opportunistic-payload-source. Source: Tenex.",
+      "pattern": "[url:value = 'https://gsocket.io/y']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "opportunistic-payload-source",
+        "unattributed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--44486fc5-c78a-4d72-b57a-c8aa4563afc4",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 sha256 IOC",
+      "description": "Source-derived indicator. Role: first-x-payload. Source: Arctic Wolf.",
+      "pattern": "[file:hashes.'SHA-256' = '73b74309f4728d169cc9edfb2767c5aadd75d39b62de93c935a86c777d2646bc']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "first-x-payload",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--bd9e8a24-729b-4762-a6e2-f930e2d9c1c0",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 sha256 IOC",
+      "description": "Source-derived indicator. Role: nsmon.pl. Source: Arctic Wolf.",
+      "pattern": "[file:hashes.'SHA-256' = '9c7bf01d2c2cb31a3609d27c1bc9abc60d86e37b7f9908547e0c75fb18b99aab']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "nsmon.pl",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--7640b7cb-5eed-483d-82c9-dca8854b611e",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 sha256 IOC",
+      "description": "Source-derived indicator. Role: initial-payload. Source: Arctic Wolf.",
+      "pattern": "[file:hashes.'SHA-256' = '57f9f30c50240fd48d761de7961a430cdebf2c084a36bc76d376a1ce8e6dfa9d']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "initial-payload",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--29a114e7-a7d0-43f4-8b79-6ddd25be6da4",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 sha256 IOC",
+      "description": "Source-derived indicator. Role: update_c08937.pl. Source: LevelBlue.",
+      "pattern": "[file:hashes.'SHA-256' = '974b69782fdf5d67b97cfd508465939e44ee10798dbcc1e82b92d78776bad938']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "update_c08937.pl",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--5dd901b5-a67f-4573-9166-f46868554538",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 sha256 IOC",
+      "description": "Source-derived indicator. Role: Platypus-agent. Source: Arctic Wolf.",
+      "pattern": "[file:hashes.'SHA-256' = '927c7fbef2e620c1ce482c3ed67ebf53da97693c1d6c7552c77aec84ba982cf8']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "Platypus-agent",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--8de840bd-7a01-4de2-8e3c-11128c2bf199",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 sha256 IOC",
+      "description": "Source-derived indicator. Role: main.py. Source: LevelBlue.",
+      "pattern": "[file:hashes.'SHA-256' = 'e9fe43968c6c0955300e3bc4d7fb0b05a18570b4733aaf4f5c6f7f09be5a242c']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "main.py",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--04d8e0ac-3729-4d95-942c-10439f59dc74",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88772 sha256 IOC",
+      "description": "Source-derived indicator. Role: Base64-payload-text-file. Source: Unit42.",
+      "pattern": "[file:hashes.'SHA-256' = '1bd314b661396c7086f6367fbbb48025e03ca2de69c073d53a8b0a38aa5fbb7d']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88772",
+        "Base64-payload-text-file",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--6720b0ee-c958-4798-8af9-d4a3ab51b94a",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88772 sha256 IOC",
+      "description": "Source-derived indicator. Role: decoded-shell-script-text-file. Source: Unit42.",
+      "pattern": "[file:hashes.'SHA-256' = '79c65fa04541032e251fa4796b97800374b63c7982593dd1a2e0db605d429186']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88772",
+        "decoded-shell-script-text-file",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ec8afb8b-eb42-482b-8ff5-2e66efcc0451",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88772 sha256 IOC",
+      "description": "Source-derived indicator. Role: nsg64.deb. Source: Unit42.",
+      "pattern": "[file:hashes.'SHA-256' = 'ae22ef2517b5c0fb47f78745b9cb5260acee0e751b89bcd354640ff8bc8d29ec']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88772",
+        "nsg64.deb",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--be3ead03-d6aa-4930-a2ed-61054f7cf03b",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88772 sha256 IOC",
+      "description": "Source-derived indicator. Role: ctxs-receiver-webshell. Source: GreyNoise.",
+      "pattern": "[file:hashes.'SHA-256' = '6f5a2a452a7901323abd21879c6cecccb47c06aeeaccb1b467212f3b11e4b1e7']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88772",
+        "ctxs-receiver-webshell",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--51e0afc9-dc8a-4478-9fc3-e05a9a54be4f",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 sha256 IOC",
+      "description": "Source-derived indicator. Role: Platypus-FreeBSD-amd64. Source: Tenex.",
+      "pattern": "[file:hashes.'SHA-256' = 'c98aee75c5e199c9b5527984ce48675d665963f7cab8ce9f2e82465de6b58727']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "Platypus-FreeBSD-amd64",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--73eaebd6-b952-4874-afc4-7770d7224b57",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 sha256 IOC",
+      "description": "Source-derived indicator. Role: Platypus-Linux-amd64. Source: Tenex.",
+      "pattern": "[file:hashes.'SHA-256' = '89b64bd45478e53299f9c422cbba40fac3ac0712b551b85185e38203f7f984c6']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "Platypus-Linux-amd64",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--43c26739-70ca-45ec-a880-fcf2996abbaa",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 sha256 IOC",
+      "description": "Source-derived indicator. Role: Platypus-UPX-packed-Linux. Source: Tenex.",
+      "pattern": "[file:hashes.'SHA-256' = 'be5832f3993ff63a36100b2f7b89c8d385e20dd9d72876700e7ade9fb9e6d4cb']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "Platypus-UPX-packed-Linux",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--20c5f24e-ba0d-41b7-b30a-21746574b65f",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 sha256 IOC",
+      "description": "Source-derived indicator. Role: Platypus-Windows-amd64. Source: Tenex.",
+      "pattern": "[file:hashes.'SHA-256' = '0dcac605a3a0c37001552369a6a77003226b35ddee7710b554fcd0e6809a76d1']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "Platypus-Windows-amd64",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--83211a6e-3d0f-4ddb-a977-76b8681f9279",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 sha256 IOC",
+      "description": "Source-derived indicator. Role: Platypus-Darwin-arm64. Source: Tenex.",
+      "pattern": "[file:hashes.'SHA-256' = '04db3fc44c81886844ef47949d7f352953a6bf1be4866be1fb3e7e12c452e3ac']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "Platypus-Darwin-arm64",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--e9688c79-fa63-4503-90e1-90c1d4e45f3e",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 sha256 IOC",
+      "description": "Source-derived indicator. Role: Platypus-Linux-amd64-unpacked. Source: Tenex.",
+      "pattern": "[file:hashes.'SHA-256' = '2d2c2f6842982f7e1cb894ce915d39f2a9861009c7ecb1b90da803f2c3c608f4']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "Platypus-Linux-amd64-unpacked",
+        "observed"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--52ff5daf-4cd6-4440-ba9a-79cf05dbd96d",
+      "created": "2026-10-02T00:00:00Z",
+      "modified": "2026-10-02T00:00:00Z",
+      "name": "CVE-2026-88771 sha256 IOC",
+      "description": "Source-derived indicator. Role: Platypus-certificate. Source: Tenex.",
+      "pattern": "[file:hashes.'SHA-256' = '38b7c597c3f33f2caa2b2de9873f15cf9cb9984b0eacb801ef4b654a96ba9bd0']",
+      "pattern_type": "stix",
+      "valid_from": "2026-10-02T00:00:00Z",
+      "labels": [
+        "CVE-2026-88771",
+        "Platypus-certificate",
+        "observed"
+      ]
+    }
+  ]
+}

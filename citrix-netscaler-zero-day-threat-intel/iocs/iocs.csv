@@ -1,0 +1,153 @@
+type,value,cve,role,confidence,source
+ipv4,23.27.143.20,CVE-2026-88771,payload-delivery,observed,LevelBlue/Arctic Wolf
+ipv4,31.56.197.72,CVE-2026-88771,payload-delivery,observed,LevelBlue/Arctic Wolf
+ipv4,45.141.21.130,CVE-2026-88771,reverse-shell-c2,observed,LevelBlue/user-supplied Python sample
+ipv4,47.230.224.154,CVE-2026-88771,exploitation-source,observed,LevelBlue
+ipv4,62.133.62.80,CVE-2026-88771,payload-delivery,observed,LevelBlue/Arctic Wolf
+ipv4,64.94.85.67,CVE-2026-88771,payload-delivery-and-exfiltration,observed,LevelBlue/user-supplied Perl sample
+ipv4,68.178.160.183,CVE-2026-88771,command-testing,observed,Arctic Wolf
+ipv4,70.172.58.168,CVE-2026-88771,exploitation-source,observed,LevelBlue
+ipv4,77.83.199.39,CVE-2026-88771,recon-and-exploitation-source,observed,Unit42/Tenex
+ipv4,78.47.24.217,CVE-2026-88771,recon-and-exploitation-source,observed,Unit42
+ipv4,87.224.84.82,CVE-2026-88771,configuration-staging-source,observed,LevelBlue
+ipv4,89.44.80.7,CVE-2026-88771,reverse-shell-testing,observed,Arctic Wolf
+ipv4,92.118.204.229,CVE-2026-88771,command-execution-testing,observed,LevelBlue
+ipv4,130.94.20.222,CVE-2026-88771,opportunistic-post-poc-delivery,unattributed,Tenex
+ipv4,130.94.42.226,CVE-2026-88771,payload-testing,observed,Arctic Wolf
+ipv4,134.175.71.50,CVE-2026-88771,payload-testing,observed,Arctic Wolf
+ipv4,139.180.152.138,CVE-2026-88771,webshell-delivery-source,observed,Unit42
+ipv4,149.104.78.141,CVE-2026-88771,exploitation-source,observed,GreyNoise
+ipv4,153.75.82.220,CVE-2026-88771,payload-delivery,observed,Arctic Wolf
+ipv4,162.243.36.88,CVE-2026-88771,exploitation-source,observed,LevelBlue
+ipv4,173.40.135.209,CVE-2026-88771,exploitation-source,observed,LevelBlue
+ipv4,177.4.12.11,CVE-2026-88771,shell-payload-delivery,observed,Arctic Wolf
+ipv4,199.233.217.13,CVE-2026-88771,opportunistic-post-poc-delivery,unattributed,Tenex
+ipv4,195.123.233.245,CVE-2026-88771,Platypus-C2,observed,Tenex
+ipv4,38.180.81.157,CVE-2026-88771,Platypus-C2,observed,Tenex
+ipv4,95.133.231.109,CVE-2026-88771,Platypus-C2,observed,Tenex
+ipv4,104.200.67.56,CVE-2026-88771,Platypus-C2,observed,Tenex
+ipv4,104.248.244.66,CVE-2026-88772,recon/fingerprinting-source,observed,Unit42
+ipv4,45.61.136.143,CVE-2026-88772,webshell-campaign-network,observed,Unit42
+ipv4,66.227.183.84,CVE-2026-88772,webshell-campaign-network,observed,Unit42
+ipv4,66.135.19.18,CVE-2026-88772,VPS-delivery-source,observed,Unit42
+ipv4,167.99.111.203,CVE-2026-88772,VPS-delivery-source,observed,Unit42
+ipv4,142.93.85.227,CVE-2026-88772,VPS-delivery-source,observed,Unit42
+ipv4,104.248.74.206,CVE-2026-88772,VPS-delivery-source,observed,Unit42
+ipv4,137.184.91.207,CVE-2026-88772,VPS-delivery-source,observed,Unit42
+ipv4,104.28.247.136,CVE-2026-88772,WARP-source,observed,Unit42
+ipv4,104.28.215.136,CVE-2026-88772,WARP-source,observed,Unit42
+ipv4,104.28.215.137,CVE-2026-88772,WARP-source,observed,Unit42
+ipv4,104.28.247.137,CVE-2026-88772,WARP-associated-source,observed,Unit42
+ipv4,162.33.178.9,CVE-2026-88772,delivery-source,observed,Unit42
+ipv4,193.149.176.207,CVE-2026-88772,delivery-and-request-source,observed,Unit42
+ipv4,216.245.184.164,CVE-2026-88772,webshell-campaign-network,observed,Unit42
+ipv4,143.198.7.94,CVE-2026-88772,exploit-source,observed,Mandiant
+ipv4,157.254.167.12,CVE-2026-88772,exploit-source,observed,Mandiant
+
+domain,entretiensol.com,CVE-2026-88771,Platypus-bootstrap-and-C2,observed,Tenex/Arctic Wolf
+domain,white-guard.pro,CVE-2026-88771,associated-infrastructure,contextual,Tenex
+domain,garyvard.com,CVE-2026-88771,certificate-SAN,contextual,Tenex
+domain,hickoryusedauto.com,CVE-2026-88771,certificate-SAN,contextual,Tenex
+domain,gurerasfalt.com,CVE-2026-88771,certificate-SAN,contextual,Tenex
+domain,rockinroyaltykids.com,CVE-2026-88771,certificate-SAN,contextual,Tenex
+domain,currydownsrvpark.com,CVE-2026-88771,certificate-SAN-no-active-resolution,contextual,Tenex
+domain,gsocket.io,CVE-2026-88771,abused-legitimate-service,unattributed,Tenex
+
+url,http://62.133.62.80:80/xd7h/x,CVE-2026-88771,payload-delivery,observed,LevelBlue/Arctic Wolf
+url,http://62.133.62.80:80/xd7h/nsmon.pl,CVE-2026-88771,persistence-payload,observed,Arctic Wolf
+url,http://23.27.143.20:9000/main.py,CVE-2026-88771,payload-delivery,observed,LevelBlue/Arctic Wolf
+url,http://64.94.85.67:443/update_c08937.pl,CVE-2026-88771,post-exploitation-script,observed,LevelBlue/Arctic Wolf
+url,http://64.94.85.67:443/update_result_3567cs.tgz,CVE-2026-88771,config-exfiltration,observed,LevelBlue/user-supplied Perl sample
+url,http://31.56.197.72:9090/lula,CVE-2026-88771,payload-delivery,observed,LevelBlue/Arctic Wolf
+url,http://68.178.160.183:8899/test111,CVE-2026-88771,execution-test,observed,Arctic Wolf
+url,http://68.178.160.183:8888/test,CVE-2026-88771,execution-test,observed,Arctic Wolf
+url,http://89.44.80.7:65456/exec-ok,CVE-2026-88771,execution-validation,observed,Arctic Wolf
+url,http://130.94.42.226:18805/?t=<REDACTED>,CVE-2026-88771,payload-testing,observed,Arctic Wolf
+url,http://134.175.71.50:4123/1,CVE-2026-88771,payload-testing,observed,Arctic Wolf
+url,http://153.75.82.220/download/x.sh,CVE-2026-88771,shell-payload-delivery,observed,Arctic Wolf
+url,http://177.4.12.11:8080/s?t=a,CVE-2026-88771,shell-payload-delivery,observed,Arctic Wolf
+url,http://177.4.12.11:8080/s?t=b,CVE-2026-88771,shell-payload-delivery,observed,Arctic Wolf
+url,http://177.4.12.11:8080/s?t=c,CVE-2026-88771,shell-payload-delivery,observed,Arctic Wolf
+url,https://entretiensol.com:443/api/v1/install/<REDACTED>,CVE-2026-88771,Platypus-bootstrap,observed,Tenex/Arctic Wolf
+url,http://199.233.217.13:8080/hi/,CVE-2026-88771,opportunistic-post-poc-delivery,unattributed,Tenex
+url,http://130.94.20.222:8888/c/<hex>,CVE-2026-88771,opportunistic-post-poc-delivery,unattributed,Tenex
+url,https://gsocket.io/y,CVE-2026-88771,opportunistic-payload-source,unattributed,Tenex
+
+sha256,73b74309f4728d169cc9edfb2767c5aadd75d39b62de93c935a86c777d2646bc,CVE-2026-88771,first-x-payload,observed,Arctic Wolf
+sha256,9c7bf01d2c2cb31a3609d27c1bc9abc60d86e37b7f9908547e0c75fb18b99aab,CVE-2026-88771,nsmon.pl,observed,Arctic Wolf
+sha256,57f9f30c50240fd48d761de7961a430cdebf2c084a36bc76d376a1ce8e6dfa9d,CVE-2026-88771,initial-payload,observed,Arctic Wolf
+sha256,974b69782fdf5d67b97cfd508465939e44ee10798dbcc1e82b92d78776bad938,CVE-2026-88771,update_c08937.pl,observed,LevelBlue
+sha256,927c7fbef2e620c1ce482c3ed67ebf53da97693c1d6c7552c77aec84ba982cf8,CVE-2026-88771,Platypus-agent,observed,Arctic Wolf
+sha256,e9fe43968c6c0955300e3bc4d7fb0b05a18570b4733aaf4f5c6f7f09be5a242c,CVE-2026-88771,main.py,observed,LevelBlue
+sha256,1bd314b661396c7086f6367fbbb48025e03ca2de69c073d53a8b0a38aa5fbb7d,CVE-2026-88772,Base64-payload-text-file,observed,Unit42
+sha256,79c65fa04541032e251fa4796b97800374b63c7982593dd1a2e0db605d429186,CVE-2026-88772,decoded-shell-script-text-file,observed,Unit42
+sha256,ae22ef2517b5c0fb47f78745b9cb5260acee0e751b89bcd354640ff8bc8d29ec,CVE-2026-88772,nsg64.deb,observed,Unit42
+sha256,6f5a2a452a7901323abd21879c6cecccb47c06aeeaccb1b467212f3b11e4b1e7,CVE-2026-88772,ctxs-receiver-webshell,observed,GreyNoise
+sha256,c98aee75c5e199c9b5527984ce48675d665963f7cab8ce9f2e82465de6b58727,CVE-2026-88771,Platypus-FreeBSD-amd64,observed,Tenex
+sha256,89b64bd45478e53299f9c422cbba40fac3ac0712b551b85185e38203f7f984c6,CVE-2026-88771,Platypus-Linux-amd64,observed,Tenex
+sha256,be5832f3993ff63a36100b2f7b89c8d385e20dd9d72876700e7ade9fb9e6d4cb,CVE-2026-88771,Platypus-UPX-packed-Linux,observed,Tenex
+sha256,0dcac605a3a0c37001552369a6a77003226b35ddee7710b554fcd0e6809a76d1,CVE-2026-88771,Platypus-Windows-amd64,observed,Tenex
+sha256,04db3fc44c81886844ef47949d7f352953a6bf1be4866be1fb3e7e12c452e3ac,CVE-2026-88771,Platypus-Darwin-arm64,observed,Tenex
+sha256,2d2c2f6842982f7e1cb894ce915d39f2a9861009c7ecb1b90da803f2c3c608f4,CVE-2026-88771,Platypus-Linux-amd64-unpacked,observed,Tenex
+sha256,38b7c597c3f33f2caa2b2de9873f15cf9cb9984b0eacb801ef4b654a96ba9bd0,CVE-2026-88771,Platypus-certificate,observed,Tenex
+
+certificate_sha256,38b7c597c3f33f2caa2b2de9873f15cf9cb9984b0eacb801ef4b654a96ba9bd0,CVE-2026-88771,Platypus-certificate,observed,Tenex
+
+file_path,/netscaler/ns_monuploadd_err.pl,CVE-2026-88771,vulnerable-log-processor,observed,Unit42/watchTowr
+file_path,/flash/nsconfig/ns.conf,CVE-2026-88771,configuration-and-persistence,observed,LevelBlue/user-supplied Perl
+file_path,/flash/nsconfig,CVE-2026-88771,configuration-collection,observed,LevelBlue/Arctic Wolf
+file_path,/etc/httpd.conf,CVE-2026-88771,webshell-registration-and-PHP-enablement,observed,LevelBlue/Unit42
+file_path,/var/run/httpd.pid,CVE-2026-88771,httpd-reload,observed,user-supplied Perl
+file_path,/bin/sh,CVE-2026-88771,SUID-SGID-persistence,observed,Unit42/LevelBlue
+file_path,/var/python/bin/customsnmpd,CVE-2026-88771,daemon-hijack-reverse-shell,observed,LevelBlue
+file_path,/var/netscaler/logon/insight-new.js,CVE-2026-88771,config-staging,observed,LevelBlue
+file_path,/var/netscaler/logon/LogonPoint/xua.html,CVE-2026-88771,config-archive-staging,observed,LevelBlue
+file_path,/var/netscaler/logon/LogonPoint/.local_journal,CVE-2026-88771,PHP-webshell,observed,LevelBlue
+file_path,/var/netscaler/logon/LogonPoint/custom/.ctxs.receiver,CVE-2026-88771,PHP-webshell,observed,Unit42/GreyNoise
+file_path,/tmp/update_result_3567cs.tgz,CVE-2026-88771,config-archive,observed,user-supplied Perl
+file_path,/.x,CVE-2026-88771,downloaded-stager,observed,Arctic Wolf
+file_path,/var/1.py,CVE-2026-88771,downloaded-Python,observed,Arctic Wolf
+file_path,/var/tmp/.s,CVE-2026-88771,staging,observed,Arctic Wolf
+file_path,/var/tmp/.nsmon,CVE-2026-88771,nsmon-rootkit-directory,observed,Arctic Wolf
+file_path,/var/tmp/.nsmon/.cfg,CVE-2026-88771,nsmon-config,observed,Arctic Wolf
+file_path,/var/tmp/.nsmon/.state,CVE-2026-88771,nsmon-state,observed,Arctic Wolf
+file_path,/var/tmp/.nsmon/nsmon.pl,CVE-2026-88771,cron-persistent-agent,observed,Arctic Wolf
+file_path,/netscaler.local/,CVE-2026-88771,masqueraded-working-directory,observed,Tenex
+file_path,/var/core/.ns-cache/,CVE-2026-88771,staging-working-directory,observed,Tenex
+file_path,/var/core/.ns-cache/client.crt,CVE-2026-88771,agent-artifact,observed,Tenex
+file_path,/var/core/.ns-cache/client.key,CVE-2026-88771,agent-artifact,observed,Tenex
+file_path,/var/core/.ns-cache/agent.lock,CVE-2026-88771,agent-artifact,observed,Tenex
+file_path,/var/core/.ns-cache/state.db,CVE-2026-88771,agent-artifact,observed,Tenex
+file_path,/vpn/scripts/linux/,CVE-2026-88772,webshell-staging-location,observed,Unit42
+file_path,/vpn/scripts/linux/nsgclient18.deb,CVE-2026-88772,webshell-payload,observed,Unit42
+file_path,/vpn/scripts/linux/nsg64.deb,CVE-2026-88772,webshell-payload,observed,Unit42
+file_path,/tmp/.uxdport,CVE-2026-88772,SLAPSHOT-runtime-state,observed,Mandiant
+file_path,/tmp/.uxdlock,CVE-2026-88772,SLAPSHOT-lock,observed,Mandiant
+file_path,/var/netscaler/.ns_suidcmd,CVE-2026-88772,privilege-escalation-binary,observed,Unit42
+file_path,/etc/crontab,CVE-2026-88772,persistence,observed,Mandiant
+file_path,/nsconfig/crontab,CVE-2026-88771,persistence-location,observed,Arctic Wolf
+file_path,/var/log/ns.log,CVE-2026-88771,poisoned-auth-log,observed,Unit42/CERT-EU
+file_path,/var/log/httpaccess-vpn.log,CVE-2026-88771,staged-HTTP-log,observed,Unit42/CERT-EU
+file_path,/var/log/sh.log,CVE-2026-88772,command-history-artifact,observed,Mandiant
+
+filename,nsgclient18.deb,CVE-2026-88772,webshell-payload,observed,Unit42
+filename,nsgser18.deb,CVE-2026-88772,webshell-payload,observed,Unit42
+filename,nsgsupport.deb,CVE-2026-88772,webshell-payload,observed,Unit42
+filename,nsgpackage64.deb,CVE-2026-88772,webshell-payload,observed,Unit42
+filename,nsgbuild.deb,CVE-2026-88772,webshell-payload,observed,Unit42
+filename,nsginstaller.deb,CVE-2026-88772,webshell-payload,observed,Mandiant
+
+http_path,/admin_ui/common/css/ns/ui.css,CVE-2026-88772,recon-fingerprinting,observed,Unit42
+http_path,/vpn/js/rdx/core/lang/rdx_en.json.gz,CVE-2026-88772,recon-fingerprinting,observed,Unit42
+http_path,/logon/LogonPoint/Authentication/GetUserName,CVE-2026-88772,anomalous-request-pattern,observed,Unit42
+http_path,/logon/LogonPoint/css/LogonUISimple.html.style.min.css,CVE-2026-88771,webshell-alias,observed,user-supplied Perl
+http_path,/logon/LogonPoint/custom/receiver.min.css,CVE-2026-88771,webshell-alias,observed,Unit42
+http_path,/logon/LogonPoint/custom/receiver.min.<hex>.css,CVE-2026-88771,webshell-alias-pattern,observed,Unit42
+
+http_cookie,NSC_TASS,CVE-2026-88771,webshell-command-channel,observed,Unit42
+http_cookie,CsrfToken,CVE-2026-88771,webshell-authentication-gate,observed,Unit42
+
+user_agent,Base64-encoded-dropper,CVE-2026-88771,http-access-log-poisoning,observed,Unit42/CERT-EU
+credential_artifact,sec_monitor-password-redacted,CVE-2026-88771,privileged-account-credential,redacted,user-supplied Perl
+credential_artifact,webshell-password-redacted,CVE-2026-88771,webshell-credential,redacted,user-supplied Perl
+credential_artifact,CSRF-token-redacted,CVE-2026-88772,webshell-authentication-gate,redacted,Unit42

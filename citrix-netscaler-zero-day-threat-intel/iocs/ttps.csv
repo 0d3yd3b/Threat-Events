@@ -1,0 +1,15 @@
+technique_id,technique_name,cve,behavior,evidence_type
+T1190,Exploit Public-Facing Application,CVE-2026-88771,Pre-auth NetScaler command injection,observed
+T1059.004,Unix Shell,CVE-2026-88771,Shell execution after log processing,observed
+T1105,Ingress Tool Transfer,CVE-2026-88771,Curl/wget retrieval of payloads,observed
+T1505.003,Web Shell,CVE-2026-88771,.local_journal and .ctxs.receiver,observed
+T1136.001,Create Account Local,CVE-2026-88771,sec_monitor privileged account,observed
+T1548.001,Setuid and Setgid,CVE-2026-88771,chmod 6555 /bin/sh,observed
+T1560.001,Archive Collected Data,CVE-2026-88771,tar /flash/nsconfig,observed
+T1048.003,Exfiltration Over Alternative Protocol,CVE-2026-88771,HTTP upload of configuration archive,observed
+T1053.003,Cron,CVE-2026-88771,nsmon.pl cron persistence,observed
+T1036,Masquerading,CVE-2026-88771,CSS/static-resource naming and appliance-like filenames,observed
+T1190,Exploit Public-Facing Application,CVE-2026-88772,Pre-auth DTLS exploitation,observed
+T1505.003,Web Shell,CVE-2026-88772,.deb/PHP web shell activity,observed
+T1046,Network Service Discovery,CVE-2026-88772,Internal reconnaissance/tunneling capability,observed
+T1573.002,Asymmetric Cryptography,CVE-2026-88772,mTLS/HTTPS-related payload communication,observed

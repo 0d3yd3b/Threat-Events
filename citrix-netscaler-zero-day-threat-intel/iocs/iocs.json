@@ -1,0 +1,1150 @@
+{
+  "schema_version": "1.0",
+  "generated_from": "iocs.csv",
+  "iocs": [
+    {
+      "type": "ipv4",
+      "value": "23.27.143.20",
+      "cve": "CVE-2026-88771",
+      "role": "payload-delivery",
+      "confidence": "observed",
+      "source": "LevelBlue/Arctic Wolf"
+    },
+    {
+      "type": "ipv4",
+      "value": "31.56.197.72",
+      "cve": "CVE-2026-88771",
+      "role": "payload-delivery",
+      "confidence": "observed",
+      "source": "LevelBlue/Arctic Wolf"
+    },
+    {
+      "type": "ipv4",
+      "value": "45.141.21.130",
+      "cve": "CVE-2026-88771",
+      "role": "reverse-shell-c2",
+      "confidence": "observed",
+      "source": "LevelBlue/user-supplied Python sample"
+    },
+    {
+      "type": "ipv4",
+      "value": "47.230.224.154",
+      "cve": "CVE-2026-88771",
+      "role": "exploitation-source",
+      "confidence": "observed",
+      "source": "LevelBlue"
+    },
+    {
+      "type": "ipv4",
+      "value": "62.133.62.80",
+      "cve": "CVE-2026-88771",
+      "role": "payload-delivery",
+      "confidence": "observed",
+      "source": "LevelBlue/Arctic Wolf"
+    },
+    {
+      "type": "ipv4",
+      "value": "64.94.85.67",
+      "cve": "CVE-2026-88771",
+      "role": "payload-delivery-and-exfiltration",
+      "confidence": "observed",
+      "source": "LevelBlue/user-supplied Perl sample"
+    },
+    {
+      "type": "ipv4",
+      "value": "68.178.160.183",
+      "cve": "CVE-2026-88771",
+      "role": "command-testing",
+      "confidence": "observed",
+      "source": "Arctic Wolf"
+    },
+    {
+      "type": "ipv4",
+      "value": "70.172.58.168",
+      "cve": "CVE-2026-88771",
+      "role": "exploitation-source",
+      "confidence": "observed",
+      "source": "LevelBlue"
+    },
+    {
+      "type": "ipv4",
+      "value": "77.83.199.39",
+      "cve": "CVE-2026-88771",
+      "role": "recon-and-exploitation-source",
+      "confidence": "observed",
+      "source": "Unit42/Tenex"
+    },
+    {
+      "type": "ipv4",
+      "value": "78.47.24.217",
+      "cve": "CVE-2026-88771",
+      "role": "recon-and-exploitation-source",
+      "confidence": "observed",
+      "source": "Unit42"
+    },
+    {
+      "type": "ipv4",
+      "value": "87.224.84.82",
+      "cve": "CVE-2026-88771",
+      "role": "configuration-staging-source",
+      "confidence": "observed",
+      "source": "LevelBlue"
+    },
+    {
+      "type": "ipv4",
+      "value": "89.44.80.7",
+      "cve": "CVE-2026-88771",
+      "role": "reverse-shell-testing",
+      "confidence": "observed",
+      "source": "Arctic Wolf"
+    },
+    {
+      "type": "ipv4",
+      "value": "92.118.204.229",
+      "cve": "CVE-2026-88771",
+      "role": "command-execution-testing",
+      "confidence": "observed",
+      "source": "LevelBlue"
+    },
+    {
+      "type": "ipv4",
+      "value": "130.94.20.222",
+      "cve": "CVE-2026-88771",
+      "role": "opportunistic-post-poc-delivery",
+      "confidence": "unattributed",
+      "source": "Tenex"
+    },
+    {
+      "type": "ipv4",
+      "value": "130.94.42.226",
+      "cve": "CVE-2026-88771",
+      "role": "payload-testing",
+      "confidence": "observed",
+      "source": "Arctic Wolf"
+    },
+    {
+      "type": "ipv4",
+      "value": "134.175.71.50",
+      "cve": "CVE-2026-88771",
+      "role": "payload-testing",
+      "confidence": "observed",
+      "source": "Arctic Wolf"
+    },
+    {
+      "type": "ipv4",
+      "value": "139.180.152.138",
+      "cve": "CVE-2026-88771",
+      "role": "webshell-delivery-source",
+      "confidence": "observed",
+      "source": "Unit42"
+    },
+    {
+      "type": "ipv4",
+      "value": "149.104.78.141",
+      "cve": "CVE-2026-88771",
+      "role": "exploitation-source",
+      "confidence": "observed",
+      "source": "GreyNoise"
+    },
+    {
+      "type": "ipv4",
+      "value": "153.75.82.220",
+      "cve": "CVE-2026-88771",
+      "role": "payload-delivery",
+      "confidence": "observed",
+      "source": "Arctic Wolf"
+    },
+    {
+      "type": "ipv4",
+      "value": "162.243.36.88",
+      "cve": "CVE-2026-88771",
+      "role": "exploitation-source",
+      "confidence": "observed",
+      "source": "LevelBlue"
+    },
+    {
+      "type": "ipv4",
+      "value": "173.40.135.209",
+      "cve": "CVE-2026-88771",
+      "role": "exploitation-source",
+      "confidence": "observed",
+      "source": "LevelBlue"
+    },
+    {
+      "type": "ipv4",
+      "value": "177.4.12.11",
+      "cve": "CVE-2026-88771",
+      "role": "shell-payload-delivery",
+      "confidence": "observed",
+      "source": "Arctic Wolf"
+    },
+    {
+      "type": "ipv4",
+      "value": "199.233.217.13",
+      "cve": "CVE-2026-88771",
+      "role": "opportunistic-post-poc-delivery",
+      "confidence": "unattributed",
+      "source": "Tenex"
+    },
+    {
+      "type": "ipv4",
+      "value": "195.123.233.245",
+      "cve": "CVE-2026-88771",
+      "role": "Platypus-C2",
+      "confidence": "observed",
+      "source": "Tenex"
+    },
+    {
+      "type": "ipv4",
+      "value": "38.180.81.157",
+      "cve": "CVE-2026-88771",
+      "role": "Platypus-C2",
+      "confidence": "observed",
+      "source": "Tenex"
+    },
+    {
+      "type": "ipv4",
+      "value": "95.133.231.109",
+      "cve": "CVE-2026-88771",
+      "role": "Platypus-C2",
+      "confidence": "observed",
+      "source": "Tenex"
+    },
+    {
+      "type": "ipv4",
+      "value": "104.200.67.56",
+      "cve": "CVE-2026-88771",
+      "role": "Platypus-C2",
+      "confidence": "observed",
+      "source": "Tenex"
+    },
+    {
+      "type": "ipv4",
+      "value": "104.248.244.66",
+      "cve": "CVE-2026-88772",
+      "role": "recon/fingerprinting-source",
+      "confidence": "observed",
+      "source": "Unit42"
+    },
+    {
+      "type": "ipv4",
+      "value": "45.61.136.143",
+      "cve": "CVE-2026-88772",
+      "role": "webshell-campaign-network",
+      "confidence": "observed",
+      "source": "Unit42"
+    },
+    {
+      "type": "ipv4",
+      "value": "66.227.183.84",
+      "cve": "CVE-2026-88772",
+      "role": "webshell-campaign-network",
+      "confidence": "observed",
+      "source": "Unit42"
+    },
+    {
+      "type": "ipv4",
+      "value": "66.135.19.18",
+      "cve": "CVE-2026-88772",
+      "role": "VPS-delivery-source",
+      "confidence": "observed",
+      "source": "Unit42"
+    },
+    {
+      "type": "ipv4",
+      "value": "167.99.111.203",
+      "cve": "CVE-2026-88772",
+      "role": "VPS-delivery-source",
+      "confidence": "observed",
+      "source": "Unit42"
+    },
+    {
+      "type": "ipv4",
+      "value": "142.93.85.227",
+      "cve": "CVE-2026-88772",
+      "role": "VPS-delivery-source",
+      "confidence": "observed",
+      "source": "Unit42"
+    },
+    {
+      "type": "ipv4",
+      "value": "104.248.74.206",
+      "cve": "CVE-2026-88772",
+      "role": "VPS-delivery-source",
+      "confidence": "observed",
+      "source": "Unit42"
+    },
+    {
+      "type": "ipv4",
+      "value": "137.184.91.207",
+      "cve": "CVE-2026-88772",
+      "role": "VPS-delivery-source",
+      "confidence": "observed",
+      "source": "Unit42"
+    },
+    {
+      "type": "ipv4",
+      "value": "104.28.247.136",
+      "cve": "CVE-2026-88772",
+      "role": "WARP-source",
+      "confidence": "observed",
+      "source": "Unit42"
+    },
+    {
+      "type": "ipv4",
+      "value": "104.28.215.136",
+      "cve": "CVE-2026-88772",
+      "role": "WARP-source",
+      "confidence": "observed",
+      "source": "Unit42"
+    },
+    {
+      "type": "ipv4",
+      "value": "104.28.215.137",
+      "cve": "CVE-2026-88772",
+      "role": "WARP-source",
+      "confidence": "observed",
+      "source": "Unit42"
+    },
+    {
+      "type": "ipv4",
+      "value": "104.28.247.137",
+      "cve": "CVE-2026-88772",
+      "role": "WARP-associated-source",
+      "confidence": "observed",
+      "source": "Unit42"
+    },
+    {
+      "type": "ipv4",
+      "value": "162.33.178.9",
+      "cve": "CVE-2026-88772",
+      "role": "delivery-source",
+      "confidence": "observed",
+      "source": "Unit42"
+    },
+    {
+      "type": "ipv4",
+      "value": "193.149.176.207",
+      "cve": "CVE-2026-88772",
+      "role": "delivery-and-request-source",
+      "confidence": "observed",
+      "source": "Unit42"
+    },
+    {
+      "type": "ipv4",
+      "value": "216.245.184.164",
+      "cve": "CVE-2026-88772",
+      "role": "webshell-campaign-network",
+      "confidence": "observed",
+      "source": "Unit42"
+    },
+    {
+      "type": "ipv4",
+      "value": "143.198.7.94",
+      "cve": "CVE-2026-88772",
+      "role": "exploit-source",
+      "confidence": "observed",
+      "source": "Mandiant"
+    },
+    {
+      "type": "ipv4",
+      "value": "157.254.167.12",
+      "cve": "CVE-2026-88772",
+      "role": "exploit-source",
+      "confidence": "observed",
+      "source": "Mandiant"
+    },
+    {
+      "type": "domain",
+      "value": "entretiensol.com",
+      "cve": "CVE-2026-88771",
+      "role": "Platypus-bootstrap-and-C2",
+      "confidence": "observed",
+      "source": "Tenex/Arctic Wolf"
+    },
+    {
+      "type": "domain",
+      "value": "white-guard.pro",
+      "cve": "CVE-2026-88771",
+      "role": "associated-infrastructure",
+      "confidence": "contextual",
+      "source": "Tenex"
+    },
+    {
+      "type": "domain",
+      "value": "garyvard.com",
+      "cve": "CVE-2026-88771",
+      "role": "certificate-SAN",
+      "confidence": "contextual",
+      "source": "Tenex"
+    },
+    {
+      "type": "domain",
+      "value": "hickoryusedauto.com",
+      "cve": "CVE-2026-88771",
+      "role": "certificate-SAN",
+      "confidence": "contextual",
+      "source": "Tenex"
+    },
+    {
+      "type": "domain",
+      "value": "gurerasfalt.com",
+      "cve": "CVE-2026-88771",
+      "role": "certificate-SAN",
+      "confidence": "contextual",
+      "source": "Tenex"
+    },
+    {
+      "type": "domain",
+      "value": "rockinroyaltykids.com",
+      "cve": "CVE-2026-88771",
+      "role": "certificate-SAN",
+      "confidence": "contextual",
+      "source": "Tenex"
+    },
+    {
+      "type": "domain",
+      "value": "currydownsrvpark.com",
+      "cve": "CVE-2026-88771",
+      "role": "certificate-SAN-no-active-resolution",
+      "confidence": "contextual",
+      "source": "Tenex"
+    },
+    {
+      "type": "domain",
+      "value": "gsocket.io",
+      "cve": "CVE-2026-88771",
+      "role": "abused-legitimate-service",
+      "confidence": "unattributed",
+      "source": "Tenex"
+    },
+    {
+      "type": "url",
+      "value": "http://62.133.62.80:80/xd7h/x",
+      "cve": "CVE-2026-88771",
+      "role": "payload-delivery",
+      "confidence": "observed",
+      "source": "LevelBlue/Arctic Wolf"
+    },
+    {
+      "type": "url",
+      "value": "http://62.133.62.80:80/xd7h/nsmon.pl",
+      "cve": "CVE-2026-88771",
+      "role": "persistence-payload",
+      "confidence": "observed",
+      "source": "Arctic Wolf"
+    },
+    {
+      "type": "url",
+      "value": "http://23.27.143.20:9000/main.py",
+      "cve": "CVE-2026-88771",
+      "role": "payload-delivery",
+      "confidence": "observed",
+      "source": "LevelBlue/Arctic Wolf"
+    },
+    {
+      "type": "url",
+      "value": "http://64.94.85.67:443/update_c08937.pl",
+      "cve": "CVE-2026-88771",
+      "role": "post-exploitation-script",
+      "confidence": "observed",
+      "source": "LevelBlue/Arctic Wolf"
+    },
+    {
+      "type": "url",
+      "value": "http://64.94.85.67:443/update_result_3567cs.tgz",
+      "cve": "CVE-2026-88771",
+      "role": "config-exfiltration",
+      "confidence": "observed",
+      "source": "LevelBlue/user-supplied Perl sample"
+    },
+    {
+      "type": "url",
+      "value": "http://31.56.197.72:9090/lula",
+      "cve": "CVE-2026-88771",
+      "role": "payload-delivery",
+      "confidence": "observed",
+      "source": "LevelBlue/Arctic Wolf"
+    },
+    {
+      "type": "url",
+      "value": "http://68.178.160.183:8899/test111",
+      "cve": "CVE-2026-88771",
+      "role": "execution-test",
+      "confidence": "observed",
+      "source": "Arctic Wolf"
+    },
+    {
+      "type": "url",
+      "value": "http://68.178.160.183:8888/test",
+      "cve": "CVE-2026-88771",
+      "role": "execution-test",
+      "confidence": "observed",
+      "source": "Arctic Wolf"
+    },
+    {
+      "type": "url",
+      "value": "http://89.44.80.7:65456/exec-ok",
+      "cve": "CVE-2026-88771",
+      "role": "execution-validation",
+      "confidence": "observed",
+      "source": "Arctic Wolf"
+    },
+    {
+      "type": "url",
+      "value": "http://130.94.42.226:18805/?t=<REDACTED>",
+      "cve": "CVE-2026-88771",
+      "role": "payload-testing",
+      "confidence": "observed",
+      "source": "Arctic Wolf"
+    },
+    {
+      "type": "url",
+      "value": "http://134.175.71.50:4123/1",
+      "cve": "CVE-2026-88771",
+      "role": "payload-testing",
+      "confidence": "observed",
+      "source": "Arctic Wolf"
+    },
+    {
+      "type": "url",
+      "value": "http://153.75.82.220/download/x.sh",
+      "cve": "CVE-2026-88771",
+      "role": "shell-payload-delivery",
+      "confidence": "observed",
+      "source": "Arctic Wolf"
+    },
+    {
+      "type": "url",
+      "value": "http://177.4.12.11:8080/s?t=a",
+      "cve": "CVE-2026-88771",
+      "role": "shell-payload-delivery",
+      "confidence": "observed",
+      "source": "Arctic Wolf"
+    },
+    {
+      "type": "url",
+      "value": "http://177.4.12.11:8080/s?t=b",
+      "cve": "CVE-2026-88771",
+      "role": "shell-payload-delivery",
+      "confidence": "observed",
+      "source": "Arctic Wolf"
+    },
+    {
+      "type": "url",
+      "value": "http://177.4.12.11:8080/s?t=c",
+      "cve": "CVE-2026-88771",
+      "role": "shell-payload-delivery",
+      "confidence": "observed",
+      "source": "Arctic Wolf"
+    },
+    {
+      "type": "url",
+      "value": "https://entretiensol.com:443/api/v1/install/<REDACTED>",
+      "cve": "CVE-2026-88771",
+      "role": "Platypus-bootstrap",
+      "confidence": "observed",
+      "source": "Tenex/Arctic Wolf"
+    },
+    {
+      "type": "url",
+      "value": "http://199.233.217.13:8080/hi/",
+      "cve": "CVE-2026-88771",
+      "role": "opportunistic-post-poc-delivery",
+      "confidence": "unattributed",
+      "source": "Tenex"
+    },
+    {
+      "type": "url",
+      "value": "http://130.94.20.222:8888/c/<hex>",
+      "cve": "CVE-2026-88771",
+      "role": "opportunistic-post-poc-delivery",
+      "confidence": "unattributed",
+      "source": "Tenex"
+    },
+    {
+      "type": "url",
+      "value": "https://gsocket.io/y",
+      "cve": "CVE-2026-88771",
+      "role": "opportunistic-payload-source",
+      "confidence": "unattributed",
+      "source": "Tenex"
+    },
+    {
+      "type": "sha256",
+      "value": "73b74309f4728d169cc9edfb2767c5aadd75d39b62de93c935a86c777d2646bc",
+      "cve": "CVE-2026-88771",
+      "role": "first-x-payload",
+      "confidence": "observed",
+      "source": "Arctic Wolf"
+    },
+    {
+      "type": "sha256",
+      "value": "9c7bf01d2c2cb31a3609d27c1bc9abc60d86e37b7f9908547e0c75fb18b99aab",
+      "cve": "CVE-2026-88771",
+      "role": "nsmon.pl",
+      "confidence": "observed",
+      "source": "Arctic Wolf"
+    },
+    {
+      "type": "sha256",
+      "value": "57f9f30c50240fd48d761de7961a430cdebf2c084a36bc76d376a1ce8e6dfa9d",
+      "cve": "CVE-2026-88771",
+      "role": "initial-payload",
+      "confidence": "observed",
+      "source": "Arctic Wolf"
+    },
+    {
+      "type": "sha256",
+      "value": "974b69782fdf5d67b97cfd508465939e44ee10798dbcc1e82b92d78776bad938",
+      "cve": "CVE-2026-88771",
+      "role": "update_c08937.pl",
+      "confidence": "observed",
+      "source": "LevelBlue"
+    },
+    {
+      "type": "sha256",
+      "value": "927c7fbef2e620c1ce482c3ed67ebf53da97693c1d6c7552c77aec84ba982cf8",
+      "cve": "CVE-2026-88771",
+      "role": "Platypus-agent",
+      "confidence": "observed",
+      "source": "Arctic Wolf"
+    },
+    {
+      "type": "sha256",
+      "value": "e9fe43968c6c0955300e3bc4d7fb0b05a18570b4733aaf4f5c6f7f09be5a242c",
+      "cve": "CVE-2026-88771",
+      "role": "main.py",
+      "confidence": "observed",
+      "source": "LevelBlue"
+    },
+    {
+      "type": "sha256",
+      "value": "1bd314b661396c7086f6367fbbb48025e03ca2de69c073d53a8b0a38aa5fbb7d",
+      "cve": "CVE-2026-88772",
+      "role": "Base64-payload-text-file",
+      "confidence": "observed",
+      "source": "Unit42"
+    },
+    {
+      "type": "sha256",
+      "value": "79c65fa04541032e251fa4796b97800374b63c7982593dd1a2e0db605d429186",
+      "cve": "CVE-2026-88772",
+      "role": "decoded-shell-script-text-file",
+      "confidence": "observed",
+      "source": "Unit42"
+    },
+    {
+      "type": "sha256",
+      "value": "ae22ef2517b5c0fb47f78745b9cb5260acee0e751b89bcd354640ff8bc8d29ec",
+      "cve": "CVE-2026-88772",
+      "role": "nsg64.deb",
+      "confidence": "observed",
+      "source": "Unit42"
+    },
+    {
+      "type": "sha256",
+      "value": "6f5a2a452a7901323abd21879c6cecccb47c06aeeaccb1b467212f3b11e4b1e7",
+      "cve": "CVE-2026-88772",
+      "role": "ctxs-receiver-webshell",
+      "confidence": "observed",
+      "source": "GreyNoise"
+    },
+    {
+      "type": "sha256",
+      "value": "c98aee75c5e199c9b5527984ce48675d665963f7cab8ce9f2e82465de6b58727",
+      "cve": "CVE-2026-88771",
+      "role": "Platypus-FreeBSD-amd64",
+      "confidence": "observed",
+      "source": "Tenex"
+    },
+    {
+      "type": "sha256",
+      "value": "89b64bd45478e53299f9c422cbba40fac3ac0712b551b85185e38203f7f984c6",
+      "cve": "CVE-2026-88771",
+      "role": "Platypus-Linux-amd64",
+      "confidence": "observed",
+      "source": "Tenex"
+    },
+    {
+      "type": "sha256",
+      "value": "be5832f3993ff63a36100b2f7b89c8d385e20dd9d72876700e7ade9fb9e6d4cb",
+      "cve": "CVE-2026-88771",
+      "role": "Platypus-UPX-packed-Linux",
+      "confidence": "observed",
+      "source": "Tenex"
+    },
+    {
+      "type": "sha256",
+      "value": "0dcac605a3a0c37001552369a6a77003226b35ddee7710b554fcd0e6809a76d1",
+      "cve": "CVE-2026-88771",
+      "role": "Platypus-Windows-amd64",
+      "confidence": "observed",
+      "source": "Tenex"
+    },
+    {
+      "type": "sha256",
+      "value": "04db3fc44c81886844ef47949d7f352953a6bf1be4866be1fb3e7e12c452e3ac",
+      "cve": "CVE-2026-88771",
+      "role": "Platypus-Darwin-arm64",
+      "confidence": "observed",
+      "source": "Tenex"
+    },
+    {
+      "type": "sha256",
+      "value": "2d2c2f6842982f7e1cb894ce915d39f2a9861009c7ecb1b90da803f2c3c608f4",
+      "cve": "CVE-2026-88771",
+      "role": "Platypus-Linux-amd64-unpacked",
+      "confidence": "observed",
+      "source": "Tenex"
+    },
+    {
+      "type": "sha256",
+      "value": "38b7c597c3f33f2caa2b2de9873f15cf9cb9984b0eacb801ef4b654a96ba9bd0",
+      "cve": "CVE-2026-88771",
+      "role": "Platypus-certificate",
+      "confidence": "observed",
+      "source": "Tenex"
+    },
+    {
+      "type": "certificate_sha256",
+      "value": "38b7c597c3f33f2caa2b2de9873f15cf9cb9984b0eacb801ef4b654a96ba9bd0",
+      "cve": "CVE-2026-88771",
+      "role": "Platypus-certificate",
+      "confidence": "observed",
+      "source": "Tenex"
+    },
+    {
+      "type": "file_path",
+      "value": "/netscaler/ns_monuploadd_err.pl",
+      "cve": "CVE-2026-88771",
+      "role": "vulnerable-log-processor",
+      "confidence": "observed",
+      "source": "Unit42/watchTowr"
+    },
+    {
+      "type": "file_path",
+      "value": "/flash/nsconfig/ns.conf",
+      "cve": "CVE-2026-88771",
+      "role": "configuration-and-persistence",
+      "confidence": "observed",
+      "source": "LevelBlue/user-supplied Perl"
+    },
+    {
+      "type": "file_path",
+      "value": "/flash/nsconfig",
+      "cve": "CVE-2026-88771",
+      "role": "configuration-collection",
+      "confidence": "observed",
+      "source": "LevelBlue/Arctic Wolf"
+    },
+    {
+      "type": "file_path",
+      "value": "/etc/httpd.conf",
+      "cve": "CVE-2026-88771",
+      "role": "webshell-registration-and-PHP-enablement",
+      "confidence": "observed",
+      "source": "LevelBlue/Unit42"
+    },
+    {
+      "type": "file_path",
+      "value": "/var/run/httpd.pid",
+      "cve": "CVE-2026-88771",
+      "role": "httpd-reload",
+      "confidence": "observed",
+      "source": "user-supplied Perl"
+    },
+    {
+      "type": "file_path",
+      "value": "/bin/sh",
+      "cve": "CVE-2026-88771",
+      "role": "SUID-SGID-persistence",
+      "confidence": "observed",
+      "source": "Unit42/LevelBlue"
+    },
+    {
+      "type": "file_path",
+      "value": "/var/python/bin/customsnmpd",
+      "cve": "CVE-2026-88771",
+      "role": "daemon-hijack-reverse-shell",
+      "confidence": "observed",
+      "source": "LevelBlue"
+    },
+    {
+      "type": "file_path",
+      "value": "/var/netscaler/logon/insight-new.js",
+      "cve": "CVE-2026-88771",
+      "role": "config-staging",
+      "confidence": "observed",
+      "source": "LevelBlue"
+    },
+    {
+      "type": "file_path",
+      "value": "/var/netscaler/logon/LogonPoint/xua.html",
+      "cve": "CVE-2026-88771",
+      "role": "config-archive-staging",
+      "confidence": "observed",
+      "source": "LevelBlue"
+    },
+    {
+      "type": "file_path",
+      "value": "/var/netscaler/logon/LogonPoint/.local_journal",
+      "cve": "CVE-2026-88771",
+      "role": "PHP-webshell",
+      "confidence": "observed",
+      "source": "LevelBlue"
+    },
+    {
+      "type": "file_path",
+      "value": "/var/netscaler/logon/LogonPoint/custom/.ctxs.receiver",
+      "cve": "CVE-2026-88771",
+      "role": "PHP-webshell",
+      "confidence": "observed",
+      "source": "Unit42/GreyNoise"
+    },
+    {
+      "type": "file_path",
+      "value": "/tmp/update_result_3567cs.tgz",
+      "cve": "CVE-2026-88771",
+      "role": "config-archive",
+      "confidence": "observed",
+      "source": "user-supplied Perl"
+    },
+    {
+      "type": "file_path",
+      "value": "/.x",
+      "cve": "CVE-2026-88771",
+      "role": "downloaded-stager",
+      "confidence": "observed",
+      "source": "Arctic Wolf"
+    },
+    {
+      "type": "file_path",
+      "value": "/var/1.py",
+      "cve": "CVE-2026-88771",
+      "role": "downloaded-Python",
+      "confidence": "observed",
+      "source": "Arctic Wolf"
+    },
+    {
+      "type": "file_path",
+      "value": "/var/tmp/.s",
+      "cve": "CVE-2026-88771",
+      "role": "staging",
+      "confidence": "observed",
+      "source": "Arctic Wolf"
+    },
+    {
+      "type": "file_path",
+      "value": "/var/tmp/.nsmon",
+      "cve": "CVE-2026-88771",
+      "role": "nsmon-rootkit-directory",
+      "confidence": "observed",
+      "source": "Arctic Wolf"
+    },
+    {
+      "type": "file_path",
+      "value": "/var/tmp/.nsmon/.cfg",
+      "cve": "CVE-2026-88771",
+      "role": "nsmon-config",
+      "confidence": "observed",
+      "source": "Arctic Wolf"
+    },
+    {
+      "type": "file_path",
+      "value": "/var/tmp/.nsmon/.state",
+      "cve": "CVE-2026-88771",
+      "role": "nsmon-state",
+      "confidence": "observed",
+      "source": "Arctic Wolf"
+    },
+    {
+      "type": "file_path",
+      "value": "/var/tmp/.nsmon/nsmon.pl",
+      "cve": "CVE-2026-88771",
+      "role": "cron-persistent-agent",
+      "confidence": "observed",
+      "source": "Arctic Wolf"
+    },
+    {
+      "type": "file_path",
+      "value": "/netscaler.local/",
+      "cve": "CVE-2026-88771",
+      "role": "masqueraded-working-directory",
+      "confidence": "observed",
+      "source": "Tenex"
+    },
+    {
+      "type": "file_path",
+      "value": "/var/core/.ns-cache/",
+      "cve": "CVE-2026-88771",
+      "role": "staging-working-directory",
+      "confidence": "observed",
+      "source": "Tenex"
+    },
+    {
+      "type": "file_path",
+      "value": "/var/core/.ns-cache/client.crt",
+      "cve": "CVE-2026-88771",
+      "role": "agent-artifact",
+      "confidence": "observed",
+      "source": "Tenex"
+    },
+    {
+      "type": "file_path",
+      "value": "/var/core/.ns-cache/client.key",
+      "cve": "CVE-2026-88771",
+      "role": "agent-artifact",
+      "confidence": "observed",
+      "source": "Tenex"
+    },
+    {
+      "type": "file_path",
+      "value": "/var/core/.ns-cache/agent.lock",
+      "cve": "CVE-2026-88771",
+      "role": "agent-artifact",
+      "confidence": "observed",
+      "source": "Tenex"
+    },
+    {
+      "type": "file_path",
+      "value": "/var/core/.ns-cache/state.db",
+      "cve": "CVE-2026-88771",
+      "role": "agent-artifact",
+      "confidence": "observed",
+      "source": "Tenex"
+    },
+    {
+      "type": "file_path",
+      "value": "/vpn/scripts/linux/",
+      "cve": "CVE-2026-88772",
+      "role": "webshell-staging-location",
+      "confidence": "observed",
+      "source": "Unit42"
+    },
+    {
+      "type": "file_path",
+      "value": "/vpn/scripts/linux/nsgclient18.deb",
+      "cve": "CVE-2026-88772",
+      "role": "webshell-payload",
+      "confidence": "observed",
+      "source": "Unit42"
+    },
+    {
+      "type": "file_path",
+      "value": "/vpn/scripts/linux/nsg64.deb",
+      "cve": "CVE-2026-88772",
+      "role": "webshell-payload",
+      "confidence": "observed",
+      "source": "Unit42"
+    },
+    {
+      "type": "file_path",
+      "value": "/tmp/.uxdport",
+      "cve": "CVE-2026-88772",
+      "role": "SLAPSHOT-runtime-state",
+      "confidence": "observed",
+      "source": "Mandiant"
+    },
+    {
+      "type": "file_path",
+      "value": "/tmp/.uxdlock",
+      "cve": "CVE-2026-88772",
+      "role": "SLAPSHOT-lock",
+      "confidence": "observed",
+      "source": "Mandiant"
+    },
+    {
+      "type": "file_path",
+      "value": "/var/netscaler/.ns_suidcmd",
+      "cve": "CVE-2026-88772",
+      "role": "privilege-escalation-binary",
+      "confidence": "observed",
+      "source": "Unit42"
+    },
+    {
+      "type": "file_path",
+      "value": "/etc/crontab",
+      "cve": "CVE-2026-88772",
+      "role": "persistence",
+      "confidence": "observed",
+      "source": "Mandiant"
+    },
+    {
+      "type": "file_path",
+      "value": "/nsconfig/crontab",
+      "cve": "CVE-2026-88771",
+      "role": "persistence-location",
+      "confidence": "observed",
+      "source": "Arctic Wolf"
+    },
+    {
+      "type": "file_path",
+      "value": "/var/log/ns.log",
+      "cve": "CVE-2026-88771",
+      "role": "poisoned-auth-log",
+      "confidence": "observed",
+      "source": "Unit42/CERT-EU"
+    },
+    {
+      "type": "file_path",
+      "value": "/var/log/httpaccess-vpn.log",
+      "cve": "CVE-2026-88771",
+      "role": "staged-HTTP-log",
+      "confidence": "observed",
+      "source": "Unit42/CERT-EU"
+    },
+    {
+      "type": "file_path",
+      "value": "/var/log/sh.log",
+      "cve": "CVE-2026-88772",
+      "role": "command-history-artifact",
+      "confidence": "observed",
+      "source": "Mandiant"
+    },
+    {
+      "type": "filename",
+      "value": "nsgclient18.deb",
+      "cve": "CVE-2026-88772",
+      "role": "webshell-payload",
+      "confidence": "observed",
+      "source": "Unit42"
+    },
+    {
+      "type": "filename",
+      "value": "nsgser18.deb",
+      "cve": "CVE-2026-88772",
+      "role": "webshell-payload",
+      "confidence": "observed",
+      "source": "Unit42"
+    },
+    {
+      "type": "filename",
+      "value": "nsgsupport.deb",
+      "cve": "CVE-2026-88772",
+      "role": "webshell-payload",
+      "confidence": "observed",
+      "source": "Unit42"
+    },
+    {
+      "type": "filename",
+      "value": "nsgpackage64.deb",
+      "cve": "CVE-2026-88772",
+      "role": "webshell-payload",
+      "confidence": "observed",
+      "source": "Unit42"
+    },
+    {
+      "type": "filename",
+      "value": "nsgbuild.deb",
+      "cve": "CVE-2026-88772",
+      "role": "webshell-payload",
+      "confidence": "observed",
+      "source": "Unit42"
+    },
+    {
+      "type": "filename",
+      "value": "nsginstaller.deb",
+      "cve": "CVE-2026-88772",
+      "role": "webshell-payload",
+      "confidence": "observed",
+      "source": "Mandiant"
+    },
+    {
+      "type": "http_path",
+      "value": "/admin_ui/common/css/ns/ui.css",
+      "cve": "CVE-2026-88772",
+      "role": "recon-fingerprinting",
+      "confidence": "observed",
+      "source": "Unit42"
+    },
+    {
+      "type": "http_path",
+      "value": "/vpn/js/rdx/core/lang/rdx_en.json.gz",
+      "cve": "CVE-2026-88772",
+      "role": "recon-fingerprinting",
+      "confidence": "observed",
+      "source": "Unit42"
+    },
+    {
+      "type": "http_path",
+      "value": "/logon/LogonPoint/Authentication/GetUserName",
+      "cve": "CVE-2026-88772",
+      "role": "anomalous-request-pattern",
+      "confidence": "observed",
+      "source": "Unit42"
+    },
+    {
+      "type": "http_path",
+      "value": "/logon/LogonPoint/css/LogonUISimple.html.style.min.css",
+      "cve": "CVE-2026-88771",
+      "role": "webshell-alias",
+      "confidence": "observed",
+      "source": "user-supplied Perl"
+    },
+    {
+      "type": "http_path",
+      "value": "/logon/LogonPoint/custom/receiver.min.css",
+      "cve": "CVE-2026-88771",
+      "role": "webshell-alias",
+      "confidence": "observed",
+      "source": "Unit42"
+    },
+    {
+      "type": "http_path",
+      "value": "/logon/LogonPoint/custom/receiver.min.<hex>.css",
+      "cve": "CVE-2026-88771",
+      "role": "webshell-alias-pattern",
+      "confidence": "observed",
+      "source": "Unit42"
+    },
+    {
+      "type": "http_cookie",
+      "value": "NSC_TASS",
+      "cve": "CVE-2026-88771",
+      "role": "webshell-command-channel",
+      "confidence": "observed",
+      "source": "Unit42"
+    },
+    {
+      "type": "http_cookie",
+      "value": "CsrfToken",
+      "cve": "CVE-2026-88771",
+      "role": "webshell-authentication-gate",
+      "confidence": "observed",
+      "source": "Unit42"
+    },
+    {
+      "type": "user_agent",
+      "value": "Base64-encoded-dropper",
+      "cve": "CVE-2026-88771",
+      "role": "http-access-log-poisoning",
+      "confidence": "observed",
+      "source": "Unit42/CERT-EU"
+    },
+    {
+      "type": "credential_artifact",
+      "value": "sec_monitor-password-redacted",
+      "cve": "CVE-2026-88771",
+      "role": "privileged-account-credential",
+      "confidence": "redacted",
+      "source": "user-supplied Perl"
+    },
+    {
+      "type": "credential_artifact",
+      "value": "webshell-password-redacted",
+      "cve": "CVE-2026-88771",
+      "role": "webshell-credential",
+      "confidence": "redacted",
+      "source": "user-supplied Perl"
+    },
+    {
+      "type": "credential_artifact",
+      "value": "CSRF-token-redacted",
+      "cve": "CVE-2026-88772",
+      "role": "webshell-authentication-gate",
+      "confidence": "redacted",
+      "source": "Unit42"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+# CVE-2026-88771 defensive IOC feed
+# Prefer the CSV/JSON feed for automation.
+23.27.143.20
+31.56.197.72
+45.141.21.130
+62.133.62.80
+64.94.85.67
+68.178.160.183
+70.172.58.168
+77.83.199.39
+78.47.24.217
+87.224.84.82
+89.44.80.7
+92.118.204.229
+130.94.20.222
+130.94.42.226
+134.175.71.50
+139.180.152.138
+149.104.78.141
+153.75.82.220
+162.243.36.88
+173.40.135.209
+177.4.12.11
+199.233.217.13
+195.123.233.245
+38.180.81.157
+95.133.231.109
+104.200.67.56
+
+e9fe43968c6c0955300e3bc4d7fb0b05a18570b4733aaf4f5c6f7f09be5a242c
+974b69782fdf5d67b97cfd508465939e44ee10798dbcc1e82b92d78776bad938
+73b74309f4728d169cc9edfb2767c5aadd75d39b62de93c935a86c777d2646bc
+9c7bf01d2c2cb31a3609d27c1bc9abc60d86e37b7f9908547e0c75fb18b99aab
+57f9f30c50240fd48d761de7961a430cdebf2c084a36bc76d376a1ce8e6dfa9d
+927c7fbef2e620c1ce482c3ed67ebf53da97693c1d6c7552c77aec84ba982cf8
+
+entretiensol.com
+white-guard.pro
+garyvard.com
+hickoryusedauto.com
+gurerasfalt.com
+rockinroyaltykids.com
+currydownsrvpark.com
+gsocket.io
+
+# Exploit markers
+pitboss PPE unexpectedly died NSPPE;
+pitboss PPE missed too many heartbeatsNSPPE;
+/ns_monuploadd_err.pl
+INDEX:
+${IFS}

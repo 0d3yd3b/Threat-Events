@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NetScaler Zero-Day IOC",
+  "type": "object",
+  "required": ["type", "value", "cve", "role", "confidence", "source"],
+  "properties": {
+    "type": {"enum": ["ipv4", "domain", "url", "sha256", "file_path", "filename", "certificate_sha256", "user_agent", "http_path", "http_cookie", "credential_artifact"]},
+    "value": {"type": "string"},
+    "cve": {"enum": ["CVE-2026-88771", "CVE-2026-88772"]},
+    "role": {"type": "string"},
+    "confidence": {"enum": ["observed", "sample", "contextual", "capability", "unattributed", "redacted"]},
+    "source": {"type": "string"}
+  }
+}

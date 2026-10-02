@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NetScaler Zero-Day Threat Intel Explorer</title>
+<style>
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;max-width:1200px;margin:0 auto;padding:24px;line-height:1.45}
+h1{margin-bottom:4px}.muted{color:#667085}.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:18px 0}.card{border:1px solid #d0d5dd;border-radius:12px;padding:14px}.controls{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0}.controls input,.controls select{padding:9px;border:1px solid #98a2b3;border-radius:8px}.pill{display:inline-block;padding:2px 8px;border:1px solid #d0d5dd;border-radius:999px;font-size:12px}.high{background:#fff7ed}.row{border-top:1px solid #eaecf0;padding:12px 0}.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;word-break:break-all}.bar{height:8px;background:#eef2f6;border-radius:8px;overflow:hidden}.fill{height:100%;background:#344054}.small{font-size:13px}a{text-decoration:none}
+@media(max-width:800px){.grid{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<h1>NetScaler Zero-Day Threat Intel Explorer</h1>
+<p class="muted">Interactive browser for the source-derived IOC feed. CVE-2026-88771 and CVE-2026-88772 are intentionally separated.</p>
+<div class="grid" id="stats"></div>
+<div class="controls">
+<input id="q" placeholder="Search IOC, role, source…" size="34">
+<select id="cve"><option value="">All CVEs</option><option>CVE-2026-88771</option><option>CVE-2026-88772</option></select>
+<select id="type"><option value="">All types</option></select>
+<select id="confidence"><option value="">All confidence</option></select>
+<button id="clear">Clear</button>
+</div>
+<div id="results"></div>
+<script>
+const esc=s=>String(s).replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+const state={items:[]};
+function render(){
+ const q=document.querySelector('#q').value.toLowerCase().trim();
+ const cve=document.querySelector('#cve').value, type=document.querySelector('#type').value, conf=document.querySelector('#confidence').value;
+ const out=state.items.filter(x=>!cve||x.cve===cve).filter(x=>!type||x.type===type).filter(x=>!conf||x.confidence===conf).filter(x=>!q||Object.values(x).join(' ').toLowerCase().includes(q));
+ document.querySelector('#results').innerHTML=out.map(x=>`<div class="row"><div><span class="pill">${esc(x.cve)}</span> <span class="pill">${esc(x.type)}</span> <span class="pill">${esc(x.confidence)}</span></div><div class="mono"><strong>${esc(x.value)}</strong></div><div class="small">${esc(x.role)} · ${esc(x.source)}</div></div>`).join('') || '<p class="muted">No matching indicators.</p>';
+}
+fetch('../iocs/iocs.json').then(r=>r.json()).then(d=>{
+ state.items=d.iocs||[];
+ const types=[...new Set(state.items.map(x=>x.type))].sort(), conf=[...new Set(state.items.map(x=>x.confidence))].sort();
+ document.querySelector('#type').innerHTML='<option value="">All types</option>'+types.map(x=>`<option>${esc(x)}</option>`).join('');
+ document.querySelector('#confidence').innerHTML='<option value="">All confidence</option>'+conf.map(x=>`<option>${esc(x)}</option>`).join('');
+ const byCve=Object.fromEntries([...new Set(state.items.map(x=>x.cve))].map(c=>[c,state.items.filter(x=>x.cve===c).length]));
+ document.querySelector('#stats').innerHTML=`<div class="card"><b>Total IOCs</b><div style="font-size:28px">${state.items.length}</div></div><div class="card"><b>88771</b><div style="font-size:28px">${byCve['CVE-2026-88771']||0}</div></div><div class="card"><b>88772</b><div style="font-size:28px">${byCve['CVE-2026-88772']||0}</div></div><div class="card"><b>Observed</b><div style="font-size:28px">${state.items.filter(x=>x.confidence==='observed').length}</div></div>`;
+ render();
+});
+['q','cve','type','confidence'].forEach(id=>document.querySelector('#'+id).addEventListener('input',render));
+document.querySelector('#clear').onclick=()=>{['q','cve','type','confidence'].forEach(id=>document.querySelector('#'+id).value='');render()};
+</script>
+</body>
+</html>
