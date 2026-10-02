@@ -1,0 +1,1 @@
+The goal of this repository is to provide a highly interactive space for security professionals—including threat researchers, SOC analysts, threat intelligence (TI) teams, and DFIR practitioners—to consume, contribute to, and disseminate security research, threat intelligence, and relevant findings.
